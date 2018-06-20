@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldProgram", "HelloWorldProgram\HelloWorldProgram.csproj", "{AD4A5AD8-6BDE-4088-80CC-53427BD1CCF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{14EDADD3-FE28-42BF-9B53-997E856E6533}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Console", "API.Console\API.Console.csproj", "{10BB77DC-7D84-44D6-A27F-99C44688525B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Web", "API.Web\API.Web.csproj", "{A33D043E-39D7-495D-B53C-8815BD1106F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Interface", "API.Interface\API.Interface.csproj", "{3C3ACA2B-49B5-48A4-B36D-05B47E35F69A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldProgram.Tests", "HelloWorldProgram.Tests\HelloWorldProgram.Tests.csproj", "{2D737C0B-C4EA-47B8-9ECF-43B82B6EF5B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Database", "API.Database\API.Database.csproj", "{A23F7593-E701-4D16-9B1B-61D539AD8CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD4A5AD8-6BDE-4088-80CC-53427BD1CCF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4A5AD8-6BDE-4088-80CC-53427BD1CCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4A5AD8-6BDE-4088-80CC-53427BD1CCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4A5AD8-6BDE-4088-80CC-53427BD1CCF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10BB77DC-7D84-44D6-A27F-99C44688525B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10BB77DC-7D84-44D6-A27F-99C44688525B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10BB77DC-7D84-44D6-A27F-99C44688525B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10BB77DC-7D84-44D6-A27F-99C44688525B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33D043E-39D7-495D-B53C-8815BD1106F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33D043E-39D7-495D-B53C-8815BD1106F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33D043E-39D7-495D-B53C-8815BD1106F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33D043E-39D7-495D-B53C-8815BD1106F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3ACA2B-49B5-48A4-B36D-05B47E35F69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3ACA2B-49B5-48A4-B36D-05B47E35F69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3ACA2B-49B5-48A4-B36D-05B47E35F69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3ACA2B-49B5-48A4-B36D-05B47E35F69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D737C0B-C4EA-47B8-9ECF-43B82B6EF5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D737C0B-C4EA-47B8-9ECF-43B82B6EF5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D737C0B-C4EA-47B8-9ECF-43B82B6EF5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D737C0B-C4EA-47B8-9ECF-43B82B6EF5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23F7593-E701-4D16-9B1B-61D539AD8CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23F7593-E701-4D16-9B1B-61D539AD8CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23F7593-E701-4D16-9B1B-61D539AD8CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23F7593-E701-4D16-9B1B-61D539AD8CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10BB77DC-7D84-44D6-A27F-99C44688525B} = {14EDADD3-FE28-42BF-9B53-997E856E6533}
+		{A33D043E-39D7-495D-B53C-8815BD1106F8} = {14EDADD3-FE28-42BF-9B53-997E856E6533}
+		{3C3ACA2B-49B5-48A4-B36D-05B47E35F69A} = {14EDADD3-FE28-42BF-9B53-997E856E6533}
+		{A23F7593-E701-4D16-9B1B-61D539AD8CDC} = {14EDADD3-FE28-42BF-9B53-997E856E6533}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1C271A6-2928-4482-BC26-59A88AB4290E}
+	EndGlobalSection
+EndGlobal
